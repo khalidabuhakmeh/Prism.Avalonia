@@ -55,7 +55,7 @@ public class App : PrismApplication
     {
         // TODO: Register services here
 
-        moduleCatalog.Register<IMainService, MainService>();
+        containerRegistry.Register<IMainService, MainService>();
     }
 
     protected override IAvaloniaObject CreateShell()
